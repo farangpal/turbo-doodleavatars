@@ -69,7 +69,7 @@ connectBtn.addEventListener('click', async () => {
       try {
         await ethereum.enable();
         initPayButton()
-        statusp.innerHTML = 'Wallet connected. Mint your NFTs now!'
+        statusp.innerHTML = 'Wallet connected'
         connectBtn.style.display = "none"
         checkoutBtn.style.display = "block"
       } catch (err) {
