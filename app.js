@@ -71,7 +71,7 @@ connectBtn.addEventListener('click', async () => {
         initPayButton()
         statusp.innerHTML = 'Wallet connected'
         connectBtn.style.display = "none"
-        checkoutBtn.style.display = "block"
+        checkoutBtn.style.display = "inline-block"
       } catch (err) {
         console.log(err)
         statusp.innerHTML = 'Wallet access denied'
