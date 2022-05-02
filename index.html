@@ -392,7 +392,14 @@ public mint for remaining Avatars will be available to everyone through a
         }, 100);
     </script>
 
-
+    <script>
+      window.onload = function() {
+    if(!window.location.hash) {
+        window.location = window.location + '#';
+        window.location.reload();
+    }
+}
+</script>
 
     <script src="media/c5e5090d10.js" crossorigin="anonymous"></script><style media="all" id="fa-v4-font-face">/*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
